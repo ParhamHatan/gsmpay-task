@@ -41,3 +41,14 @@ dev_dependencies:
 flutter:
   disable-swift-package-manager: true
   uses-material-design: true
+
+  fonts:
+    - family: IranYekan
+      fonts:
+        - asset: assets/fonts/IRANYekanMobileRegular.ttf
+        - asset: assets/fonts/IRANYekanMobileMedium.ttf
+          weight: 500
+        - asset: assets/fonts/IRANYekanMobileBold.ttf
+          weight: 700
+        - asset: assets/fonts/IRANYekanMobileExtraBold.ttf
+          weight: 900
