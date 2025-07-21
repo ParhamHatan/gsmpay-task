@@ -36,7 +36,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # Linting
   flutter_lints: 6.0.0
+  very_good_analysis: 9.0.0
 
 flutter:
   disable-swift-package-manager: true

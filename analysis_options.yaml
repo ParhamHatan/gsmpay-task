@@ -1,1 +1,13 @@
-include: package:flutter_lints/flutter.yaml
+include: 
+  - package:flutter_lints/flutter.yaml
+  - package:very_good_analysis/analysis_options.yaml
+
+formatter:
+  page_width: 120
+
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    sort_pub_dependencies: false
+    omit_local_variable_types: false
