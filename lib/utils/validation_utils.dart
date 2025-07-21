@@ -25,8 +25,8 @@ abstract class ValidationUtil {
       sum += int.parse(nationalCode[i]) * (10 - i);
     }
 
-    int controllerDigit = int.parse(nationalCode[9]);
-    int remainder = sum % 11;
+    final controllerDigit = int.parse(nationalCode[9]);
+    final remainder = sum % 11;
 
     if (remainder < 2) {
       return controllerDigit == remainder;
