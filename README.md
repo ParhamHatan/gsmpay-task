@@ -17,3 +17,4 @@ A simple Flutter app to demonstrate coding skills for the GSM Pay Flutter develo
 * Used money separator for monthly salary text field (grouping 3 by 3 e.g. 200,000)
 
 App video: https://drive.google.com/file/d/1HR5mGAkiq_Fl8QFij_kYfjCcvvBa269J/view?usp=share_link
+Built and tested with Flutter version: 3.32.5
